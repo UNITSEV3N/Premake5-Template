@@ -1,0 +1,42 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Engine Specific
+!Engine/libs/**/*.lib
+!Engine/libs/**/*.dll
+
+# Executables
+*.out
+*.app
+/.vs
+
+# Visual Studio
+*.filters
+*.user
+*.vcxproj
+*.slnx
+*.sln
+
+# Binaries
+/bin
+/bin-int
+/.bin
+/.build
+
